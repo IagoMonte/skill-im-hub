@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "slug": "gestao-de-fretes",
+  "title": { "pt": "Gestão de Fretes", "en": "Freight Management" },
+  "summary": {
+    "pt": "Plataforma interna que centraliza cotações, cargas e transportadoras da empresa.",
+    "en": "Internal platform that centralizes quotes, loads and carriers."
+  },
+  "status": "live",
+  "category": {
+    "slug": "gestao",
+    "name": { "pt": "gestão", "en": "management" },
+    "tagline": { "pt": "Sistemas que organizam a operação: cotação, carga, cadastro e relatório no mesmo lugar." },
+    "colors": ["#ffffff", "#0b0b0b", "#8a8a8a"],
+    "fx": "grid"
+  },
+  "stack": ["laravel", "sql server", "docker"],
+  "facts": {
+    "role": { "pt": "Desenvolvedor full stack", "en": "Full stack developer" },
+    "period": { "start": "2024-03", "end": "atual" },
+    "context": { "pt": "projeto de trabalho", "en": "work project" }
+  },
+  "links": [
+    { "kind": "case", "url": "https://example.com/case/gestao-de-fretes" },
+    { "kind": "repo", "url": "https://github.com/owner/gestao-de-fretes" }
+  ],
+  "thumbnail": "thumbnail.png",
+  "shots": [
+    { "file": "shots/01-dashboard.png", "caption": { "pt": "dashboard de cotações", "en": "quotes dashboard" }, "format": "desktop" },
+    { "file": "shots/02-cotacao-mobile.png", "caption": { "pt": "cotação no celular" }, "format": "mobile" }
+  ],
+  "docs": [
+    { "name": "README", "file": "docs/readme.md", "file_en": "docs/readme.en.md" },
+    { "name": "ARQUITETURA", "file": "docs/arquitetura.md" },
+    { "name": "CHANGELOG", "file": "docs/changelog.md" }
+  ]
+}
